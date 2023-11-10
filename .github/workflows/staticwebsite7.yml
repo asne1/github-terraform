@@ -8,7 +8,8 @@ on:
     branches:
       - 'main'
     paths:
-      - '.\Users\annes\OneDrive\Skole\Tisip-IT_drift\3.semester\Infrastructure as a service\Materiale\7-modul-githubAction\L\**'
+      - '.\Users\annes\OneDrive\Skole\Tisip-IT_drift\3.semester\Infrastructure as a service\Materiale\6-modul\github-terraform\7-modul-githubAction\L\**'
+  
       
 jobs:
   terraform:
@@ -20,7 +21,7 @@ jobs:
       ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-      WORKING_DIR: .\Users\annes\OneDrive\Skole\Tisip-IT_drift\3.semester\Infrastructure as a service\Materiale\7-modul-githubAction\L
+      WORKING_DIR: .\Users\annes\OneDrive\Skole\Tisip-IT_drift\3.semester\Infrastructure as a service\Materiale\6-modul\github-terraform\7-modul-githubAction\L
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
